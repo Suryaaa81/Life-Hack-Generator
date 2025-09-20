@@ -218,3 +218,4 @@ filterDropdown.addEventListener('change', showHack);
 
 // Show a hack on load
 showHack();
+
