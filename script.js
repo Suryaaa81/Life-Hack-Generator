@@ -1,5 +1,5 @@
 const hacks = [
-  // Productivity (20)
+  // Productivity
   { text: "Use keyboard shortcuts to boost productivity.", category: "Productivity" },
   { text: "Set timers for focused work sessions.", category: "Productivity" },
   { text: "Break big tasks into smaller steps.", category: "Productivity" },
@@ -20,8 +20,12 @@ const hacks = [
   { text: "Delegate tasks when possible.", category: "Productivity" },
   { text: "Use voice memos for quick ideas.", category: "Productivity" },
   { text: "Reflect on your day to improve tomorrow.", category: "Productivity" },
+  { text: "Multitasking can reduce productivity by up to 40%. Focus on one task at a time for best results.", category: "Productivity" },
+  { text: "Use the 2-minute rule: If a task takes less than 2 minutes, do it immediately.", category: "Productivity" },
+  { text: "Writing goals down increases achievement by 42%.", category: "Productivity" },
+  { text: "Automate email sorting with filters to save hours each month.", category: "Productivity" },
 
-  // Health (20)
+  // Health
   { text: "Drink a glass of water first thing in the morning.", category: "Health" },
   { text: "Take short walks to refresh your mind.", category: "Health" },
   { text: "Stretch for five minutes every morning.", category: "Health" },
@@ -42,8 +46,12 @@ const hacks = [
   { text: "Take regular breaks from sitting.", category: "Health" },
   { text: "Practice good posture.", category: "Health" },
   { text: "Laugh often—it’s good for your health.", category: "Health" },
+  { text: "Laughing boosts your immune system and burns calories.", category: "Health" },
+  { text: "Cold showers can improve circulation and alertness.", category: "Health" },
+  { text: "Just 20 minutes in nature can lower stress hormones.", category: "Health" },
+  { text: "Standing desks can reduce back pain and increase energy.", category: "Health" },
 
-  // Home (20)
+  // Home
   { text: "Use vinegar to clean glass surfaces.", category: "Home" },
   { text: "Use baking soda to remove odors from your fridge.", category: "Home" },
   { text: "Put a bowl of rice in damp areas to absorb moisture.", category: "Home" },
@@ -64,8 +72,12 @@ const hacks = [
   { text: "Label cables to avoid confusion.", category: "Home" },
   { text: "Use a lint roller to clean lampshades.", category: "Home" },
   { text: "Keep a donation box for unused items.", category: "Home" },
+  { text: "Baking soda neutralizes odors by changing pH levels.", category: "Home" },
+  { text: "Use a bowl of coffee grounds to absorb fridge smells.", category: "Home" },
+  { text: "Houseplants can remove up to 87% of air toxins in 24 hours.", category: "Home" },
+  { text: "Use aluminum foil to sharpen scissors—just cut through it several times.", category: "Home" },
 
-  // Tech (20)
+  // Tech
   { text: "Restart your router to fix most internet issues.", category: "Tech" },
   { text: "Use incognito mode for private browsing.", category: "Tech" },
   { text: "Charge your phone faster by enabling airplane mode.", category: "Tech" },
@@ -86,8 +98,12 @@ const hacks = [
   { text: "Use Bluetooth to share files quickly.", category: "Tech" },
   { text: "Learn basic keyboard shortcuts.", category: "Tech" },
   { text: "Use a password manager.", category: "Tech" },
+  { text: "The average person spends 2 years of their life on social media. Use app timers to reclaim your time.", category: "Tech" },
+  { text: "Use virtual desktops to organize work and personal tasks.", category: "Tech" },
+  { text: "Strong passwords are at least 12 characters and use symbols, numbers, and letters.", category: "Tech" },
+  { text: "Use reverse image search to verify photos and spot fake news.", category: "Tech" },
 
-  // Food (20)
+  // Food
   { text: "Freeze grapes for a healthy snack.", category: "Food" },
   { text: "Add lemon to water for a vitamin boost.", category: "Food" },
   { text: "Use an ice cube tray to freeze herbs in olive oil.", category: "Food" },
@@ -108,8 +124,12 @@ const hacks = [
   { text: "Use parchment paper for easy baking cleanup.", category: "Food" },
   { text: "Add a pinch of salt to sweet recipes to enhance flavor.", category: "Food" },
   { text: "Use a spoon to hull strawberries.", category: "Food" },
+  { text: "Freezing bread slows mold growth, keeping it fresh for months.", category: "Food" },
+  { text: "Add a dash of vinegar to boiling eggs for easier peeling.", category: "Food" },
+  { text: "Chilling onions before cutting reduces tears by slowing the release of sulfur.", category: "Food" },
+  { text: "Use a microwave with a cup of water to reheat pizza and keep the crust soft.", category: "Food" },
 
-  // Photography (10)
+  // Photography
   { text: "Use natural light for softer portraits.", category: "Photography" },
   { text: "Clean your lens regularly for sharper images.", category: "Photography" },
   { text: "Use the rule of thirds for balanced composition.", category: "Photography" },
@@ -120,8 +140,12 @@ const hacks = [
   { text: "Use leading lines to draw attention.", category: "Photography" },
   { text: "Keep your camera steady for clear images.", category: "Photography" },
   { text: "Experiment with black and white photography.", category: "Photography" },
+  { text: "The golden hour lasts about 1 hour after sunrise and before sunset, giving photos a magical glow.", category: "Photography" },
+  { text: "Use a polarized filter to reduce glare and enhance colors.", category: "Photography" },
+  { text: "Leading lines in composition guide the viewer’s eye and create depth.", category: "Photography" },
+  { text: "Shoot in RAW format for maximum editing flexibility.", category: "Photography" },
 
-  // Videography (10)
+  // Videography
   { text: "Use a tripod for stable video.", category: "Videography" },
   { text: "Record audio separately for better quality.", category: "Videography" },
   { text: "Plan your shots with a storyboard.", category: "Videography" },
@@ -132,8 +156,12 @@ const hacks = [
   { text: "Use manual focus for precise control.", category: "Videography" },
   { text: "Edit out unnecessary footage.", category: "Videography" },
   { text: "Add subtitles for accessibility.", category: "Videography" },
+  { text: "24 frames per second is the cinematic standard for smooth video.", category: "Videography" },
+  { text: "Use color grading to set the mood and tone of your video.", category: "Videography" },
+  { text: "Good audio is more important than video quality for viewer retention.", category: "Videography" },
+  { text: "Use B-roll footage to make your edits more dynamic.", category: "Videography" },
 
-  // College (10)
+  // College
   { text: "Take organized notes for easier studying.", category: "College" },
   { text: "Use flashcards to memorize key concepts.", category: "College" },
   { text: "Join study groups for collaborative learning.", category: "College" },
@@ -144,6 +172,10 @@ const hacks = [
   { text: "Ask professors for clarification when needed.", category: "College" },
   { text: "Keep a planner for assignments and deadlines.", category: "College" },
   { text: "Review material regularly, not just before exams.", category: "College" },
+  { text: "Spaced repetition is proven to boost long-term memory retention.", category: "College" },
+  { text: "Use the Feynman technique: Teach a concept to someone else to master it.", category: "College" },
+  { text: "Studying in multiple locations improves recall by creating varied memory cues.", category: "College" },
+  { text: "Record yourself explaining tough topics and play it back for review.", category: "College" }
 ];
 
 function getFilteredHacks(category) {
